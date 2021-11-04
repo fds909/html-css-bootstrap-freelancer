@@ -4,7 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+}
+
 header {
     height: 20vh;
     background-color: grey;
 }
+
+footer {
+    
+}
+
