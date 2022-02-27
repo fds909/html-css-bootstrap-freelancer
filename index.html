@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <div class="container">
             <div class="row align-items-center">
@@ -36,6 +37,7 @@
             </div>
         </div>
     </header>
+    <!-- END HEADER -->
     
     <main>
         <!-- Start Bootstrap -->
@@ -74,32 +76,32 @@
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                         <div class="col">
                             <div class="img-content">
-                                <img src="img/cabin.png" alt="Cabin" class="rounded">
+                                <img src="img/cabin.png" alt="Cabin" class="rounded-3">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-content">
-                                <img src="img/cake.png" alt="Cake" class="rounded">
+                                <img src="img/cake.png" alt="Cake" class="rounded-3">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-content">
-                                <img src="img/circus.png" alt="Circus" class="rounded">
+                                <img src="img/circus.png" alt="Circus" class="rounded-3">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-content">
-                                <img src="img/game.png" alt="Game Joypad" class="rounded">
+                                <img src="img/game.png" alt="Game Joypad" class="rounded-3">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-content">
-                                <img src="img/safe.png" alt="Safe" class="rounded">
+                                <img src="img/safe.png" alt="Safe" class="rounded-3">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-content">
-                                <img src="img/submarine.png" alt="Submarine" class="rounded">
+                                <img src="img/submarine.png" alt="Submarine" class="rounded-3">
                             </div>
                         </div>
                     </div>
@@ -141,12 +143,81 @@
                 <div class="container-fluid">
                     <h2>CONTACT ME</h2>
 
-                    
+                    <div class="line-star d-flex justify-content-center align-items-center">
+                        <div class="line"></div>
+                        <i class="star fas fa-star"></i>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="form-container">
+                        <form>
+                            <div class="mb-3">
+                              <label for="customer-name" class="sr-only">Name</label>
+                              <input type="text" class="form-control" id="customer-name" aria-describedby="emailHelp" placeholder="Name">
+                            </div>
+
+                            <div class="mb-3">
+                              <label for="customer-email" class="sr-only">Email Address</label>
+                              <input type="email" class="form-control" id="customer-email" aria-describedby="emailHelp" placeholder="Email Address">
+                            </div>
+
+                            <div class="mb-3">
+                              <label for="customer-phone" class="sr-only">Phone Number</label>
+                              <input type="text" class="form-control" id="customer-phone" aria-describedby="emailHelp" placeholder="Phone Number">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="customer-message" class="sr-only">Message</label>
+                                <textarea class="form-control" id="customer-message" rows="3" placeholder="Message"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
                 </div>
             </div>
         </section>
 
     </main>
+    <!-- END MAIN -->
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <div class="footer-top-content">
+                            <div class="col-title">LOCATION</div>
+                            <p>2215 John Daniel Drive Clark, MO 54243</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-top-content">
+                            <div class="col-title">AROUND THE WEB</div>
+                            <div class="social d-flex">
+                                <div class="social-circle"><i class="fab fa-facebook-f"></i></div>
+                                <div class="social-circle"><i class="fab fa-google-plus-g"></i></div>
+                                <div class="social-circle"><i class="fab fa-twitter"></i></div>
+                                <div class="social-circle"><i class="fab fa-linkedin-in"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col-title">ABOUT FREELANCER</div>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copy">Copyright &copy; Your Website 2019</p>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
 
 </body>
 
