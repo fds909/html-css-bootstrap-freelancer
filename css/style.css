@@ -1,19 +1,147 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* COMMON */
+img {
+    max-width: 100%;
 }
 
-body {
+.container_narrow {
+    width: 65%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    padding: 30px 0;
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Hader left */
+header .logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Header right */
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.menu,
+.burger {
+    text-align: left;
+}
+
+.burger i {
+    font-size: 30px;
+    color: rgb(211, 211, 211);
+}
+
+/* MAIN */
+section {
+    padding: 50px 0;
+}
+
+.green_bg {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.white_bg {
+    background-color: white;
+    color: black;
+}
+
+.line-star {
+    margin: 20px 0;
+}
+
+/* Start Bootstrap */
+#start-bootstrap .start-content {
+    width: 80%;
+}
+
+#start-bootstrap img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#start-bootstrap h1 {
+    font-size: 40px;
+}
+
+.line-star .line {
+    width: 80px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.line-star .star {
+    font-size: 30px;
+    margin: 0 8px;
+    margin-bottom: 20px;
+}
+
+.green_bg .line {
     background-color: white;
 }
 
-header {
-    height: 20vh;
-    background-color: grey;
+.green_bg .star {
+    color: white;
 }
 
-footer {
-    
+#start-bootstrap .role {
+    font-size: 20px;
+    font-weight: 500;
 }
+
+/* Portfolio */
+#portfolio {
+    text-align: center;
+}
+
+.white_bg .line {
+    background-color: #2c3e50;
+}
+
+.white_bg .star {
+    color: #2c3e50;
+}
+
+.img-content {
+    margin: 20px 0;
+}
+
+/* About */
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 35px;
+}
+
+ #about p {
+     text-align: left;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ .btn_green {
+     background-color: rgba(0, 0, 0, 0);
+     border-color: white;
+     color: white;
+ }
 
